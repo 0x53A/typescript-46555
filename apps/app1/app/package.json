@@ -28,8 +28,8 @@
     "webpack-dev-server": "^4.4.0"
   },
   "scripts": {
-    "start": "NODE_OPTIONS=\"--max-http-header-size=100000 --max-old-space-size=8192 --trace-deprecation\" NODE_ENV=development yarn webpack-dev-server --config ./webpack.config.js",
-    "build": "NODE_OPTIONS=--max-old-space-size=8192 NODE_ENV=production yarn webpack --config ./webpack.config.js",
-    "buildDebug": "NODE_OPTIONS=--max-old-space-size=8192 NODE_ENV=development yarn webpack --config ./webpack.config.js"
+    "start": "webpack-dev-server --config ./webpack.config.js",
+    "build": "webpack --config ./webpack.config.js",
+    "buildDebug": "webpack --config ./webpack.config.js"
   }
 }
