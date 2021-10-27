@@ -1,0 +1,31 @@
+{
+  "extends": "../../../tsconfig-base.json",
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [
+      "dom",
+      "dom.iterable",
+      "esnext"
+    ],
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "module": "esnext",
+    "moduleResolution": "node",
+    "isolatedModules": true,
+    "jsx": "react",
+    "downlevelIteration": true,
+    "baseUrl": ".",
+    "outDir": "./../../../out/client-components",
+  },
+  "include": [
+    "./src",
+    "./public",
+    "./index.ts",
+    "src/**/*",
+    "src/**/*.json",
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

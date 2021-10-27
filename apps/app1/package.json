@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "name": "app1-workspace",
+    "workspaces": [
+        "client-components",
+        "app"
+    ],
+    "dependencies": {
+        "typescript": "4.5.0-dev.20211006"
+    },
+    "devDependencies": {
+        "concurrently": "^6.2.2"
+    }
+}
