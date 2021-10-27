@@ -10,6 +10,6 @@
     "react-dom": ">=16.13.1"
   },
   "devDependencies": {
-    "typescript": "4.5.0-dev.20211006"
+    "typescript": "next"
   }
 }

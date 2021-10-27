@@ -21,11 +21,11 @@
     "mini-css-extract-plugin": "^2.3.0",
     "sass-loader": "^12.1.0",
     "ts-loader": "^9.2.6",
-    "typescript": "4.5.0-dev.20211006",
-    "webpack": "^5.53.0",
+    "typescript": "next",
+    "webpack": "^5.60.0",
     "webpack-assets-manifest": "^5.0.6",
     "webpack-cli": "^4.8.0",
-    "webpack-dev-server": "^4.3.1"
+    "webpack-dev-server": "^4.4.0"
   },
   "scripts": {
     "start": "NODE_OPTIONS=\"--max-http-header-size=100000 --max-old-space-size=8192 --trace-deprecation\" NODE_ENV=development yarn webpack-dev-server --config ./webpack.config.js",

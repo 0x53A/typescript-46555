@@ -595,7 +595,7 @@ __metadata:
   resolution: "app1-workspace@workspace:."
   dependencies:
     concurrently: ^6.2.2
-    typescript: 4.5.0-dev.20211006
+    typescript: next
   languageName: unknown
   linkType: soft
 
@@ -618,11 +618,11 @@ __metadata:
     react: ^17.0.2
     sass-loader: ^12.1.0
     ts-loader: ^9.2.6
-    typescript: 4.5.0-dev.20211006
-    webpack: ^5.53.0
+    typescript: next
+    webpack: ^5.60.0
     webpack-assets-manifest: ^5.0.6
     webpack-cli: ^4.8.0
-    webpack-dev-server: ^4.3.1
+    webpack-dev-server: ^4.4.0
   languageName: unknown
   linkType: soft
 
@@ -872,7 +872,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chokidar@npm:^3.5.1":
+"chokidar@npm:^3.5.2":
   version: 3.5.2
   resolution: "chokidar@npm:3.5.2"
   dependencies:
@@ -932,7 +932,7 @@ __metadata:
     "@types/react-dom": ">=16.9.0"
     react: ">=17.0.2"
     react-dom: ">=16.13.1"
-    typescript: 4.5.0-dev.20211006
+    typescript: next
   languageName: unknown
   linkType: soft
 
@@ -1475,7 +1475,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"enhanced-resolve@npm:^5.0.0, enhanced-resolve@npm:^5.8.0":
+"enhanced-resolve@npm:^5.0.0, enhanced-resolve@npm:^5.8.3":
   version: 5.8.3
   resolution: "enhanced-resolve@npm:5.8.3"
   dependencies:
@@ -1534,10 +1534,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"es-module-lexer@npm:^0.7.1":
-  version: 0.7.1
-  resolution: "es-module-lexer@npm:0.7.1"
-  checksum: c66fb633cc521529862818caf603897d58d30442c885a1a1ed16823ddbbb8a437e3952454a4b2650242df1c1b4d0efa42fedbe49594e3ef2ceb3c891cf1211dd
+"es-module-lexer@npm:^0.9.0":
+  version: 0.9.3
+  resolution: "es-module-lexer@npm:0.9.3"
+  checksum: 84bbab23c396281db2c906c766af58b1ae2a1a2599844a504df10b9e8dc77ec800b3211fdaa133ff700f5703d791198807bba25d9667392d27a5e9feda344da8
   languageName: node
   linkType: hard
 
@@ -4372,23 +4372,23 @@ resolve@^1.9.0:
   languageName: node
   linkType: hard
 
-typescript@4.5.0-dev.20211006:
-  version: 4.5.0-dev.20211006
-  resolution: "typescript@npm:4.5.0-dev.20211006"
+typescript@next:
+  version: 4.5.0-dev.20211027
+  resolution: "typescript@npm:4.5.0-dev.20211027"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 4ff60fcecd2209110b49b3d721a932562d3756365d1cb6c813c7612883d3e8e02e85cd6f2a2066f8fc1a79868f03895e4dbc2ccb50653d3636632d255d9cbd5a
+  checksum: 9ab3d3f3cc955c2f1f0c5cb517b32d5d97bdbb1cb1a98c12d2f0270a6a1ba8d9f3329cdc63ddb393faab332150132008e2d4a2a9b732e30583aa68a9d347d97a
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@4.5.0-dev.20211006#~builtin<compat/typescript>":
-  version: 4.5.0-dev.20211006
-  resolution: "typescript@patch:typescript@npm%3A4.5.0-dev.20211006#~builtin<compat/typescript>::version=4.5.0-dev.20211006&hash=32657b"
+"typescript@patch:typescript@next#~builtin<compat/typescript>":
+  version: 4.5.0-dev.20211027
+  resolution: "typescript@patch:typescript@npm%3A4.5.0-dev.20211027#~builtin<compat/typescript>::version=4.5.0-dev.20211027&hash=32657b"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 6ce5e339c94e3acebedb29718d6befa1137192464d929510f21dd99f82a3708c29e6a74dbcafe055d2acd57a20da9eeccc27a45f0f3d0dd0a371ca8c8944dd40
+  checksum: 49e537e7ddb86cc81d83c1694a4208e94ea3809c77d06c5c811e2b1da43ba780a7ae9ab5772d76e8b0611a78cda73024886f358c611bd50ad35f38552b5a4d17
   languageName: node
   linkType: hard
 
@@ -4565,13 +4565,13 @@ typescript@4.5.0-dev.20211006:
   languageName: node
   linkType: hard
 
-"webpack-dev-server@npm:^4.3.1":
-  version: 4.3.1
-  resolution: "webpack-dev-server@npm:4.3.1"
+"webpack-dev-server@npm:^4.4.0":
+  version: 4.4.0
+  resolution: "webpack-dev-server@npm:4.4.0"
   dependencies:
     ansi-html-community: ^0.0.8
     bonjour: ^3.5.0
-    chokidar: ^3.5.1
+    chokidar: ^3.5.2
     colorette: ^2.0.10
     compression: ^1.7.4
     connect-history-api-fallback: ^1.6.0
@@ -4601,7 +4601,7 @@ typescript@4.5.0-dev.20211006:
       optional: true
   bin:
     webpack-dev-server: bin/webpack-dev-server.js
-  checksum: ce9d054c3de335df4cca4759aaff3a5291487c906b15bd3bb6e41de86e3784b307ae1e2cdd6403424567b0645a0dc6a9dd21b4839ba86176d5097664474d2b68
+  checksum: c317b5029b6f8caad47a257edb68b2dad5cd7087f4481ebda3359701c981037ce387486bdf992fb6e23213685d8e25e306b25a62541a42d0154562b1999563a5
   languageName: node
   linkType: hard
 
@@ -4622,9 +4622,9 @@ typescript@4.5.0-dev.20211006:
   languageName: node
   linkType: hard
 
-"webpack@npm:^5.53.0":
-  version: 5.53.0
-  resolution: "webpack@npm:5.53.0"
+"webpack@npm:^5.60.0":
+  version: 5.60.0
+  resolution: "webpack@npm:5.60.0"
   dependencies:
     "@types/eslint-scope": ^3.7.0
     "@types/estree": ^0.0.50
@@ -4635,8 +4635,8 @@ typescript@4.5.0-dev.20211006:
     acorn-import-assertions: ^1.7.6
     browserslist: ^4.14.5
     chrome-trace-event: ^1.0.2
-    enhanced-resolve: ^5.8.0
-    es-module-lexer: ^0.7.1
+    enhanced-resolve: ^5.8.3
+    es-module-lexer: ^0.9.0
     eslint-scope: 5.1.1
     events: ^3.2.0
     glob-to-regexp: ^0.4.1
@@ -4655,7 +4655,7 @@ typescript@4.5.0-dev.20211006:
       optional: true
   bin:
     webpack: bin/webpack.js
-  checksum: f55c40e0a215d68633976ea54acbd9e92bf43f18593d25ffa2f4f1c33e7017d9c475ceabaddf1742d60310d84ec4600e564c1125e061378032948c11a2b18245
+  checksum: 3c37424516cfb3c7c9cefc888b359b945913f801059fb7c496380b06830666116f71f394eac135e1721b6802ff846ffa73378d3c05a9e03e3c2890a6bfa5bba1
   languageName: node
   linkType: hard
 
